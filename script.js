@@ -22,7 +22,7 @@ let students = [
 function finalGrade(studentsArray) {
     for (const student of studentsArray) {
         let finalGrade = (Number(student.grade1) + Number(student.grade2)) / 2
-        if (finalGrade > 7) {
+        if (finalGrade >= 7) {
             alert(`A media do(a) aluno(a) ${student.name} é ${finalGrade}
  Parabéns ${student.name} , você foi aprovado pro concurso
                 `)
